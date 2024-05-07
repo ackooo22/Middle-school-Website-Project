@@ -1,0 +1,1 @@
+This has been a Project i have done with my peers for a Middle School in my country, I have learned so much thru the time i was doing the project and even tho the code is a bit sloppy i am certian that if i redo it it would be more clean and professional, but the main keys i have learned is working with a team working with git and presenting to a  client.
