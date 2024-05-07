@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --orange2: #FF8700;
+    --dark-blue: #031A62;
+    --red: #ff003a;
+    --light-blue: #00a3ff;
+    --mont:"Montserrat", sans-serif;
+    
+}
+.top-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+    left: 5em;
+    width: 90%;
+}
+.top-vector {
+    background-image: url(../style/Img/Vectors/Vector\ 162\ -\ 2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 15em;
+    width: 30em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.arrow {
+    background-image: url(../style/Img/Vectors/Ellipse\ 54.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 7em;
+    height: 7em;
+    position: relative;
+    left: 22em;
+    top: 2em;
+}
+
+.vector-h2 {
+    color: white;
+    font-family: var(--mont);
+    font-size: 2.5em;
+}
+
+/* View cards section starts from here */
+
+.view-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    margin-top: 150px;
+   
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+
+    
+.view-card-1 {
+    background-image: linear-gradient(rgba(3, 26, 97, 0), rgba(3, 26, 97, 0.8)), url(../style/Img/students.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    width: 30em;
+    height: 25em;
+}
+
+.view-card-1:hover{
+    background-image: linear-gradient(rgba(3, 26, 97, 0), rgba(225, 136, 0, 0.8)), url(../style/Img/students.jpg);
+}
+
+.view-card-2 {
+    background-image: linear-gradient(rgba(3, 26, 97, 0), rgba(3, 26, 97, 0.8)), url(../style/Img/kids\ sitting\ 2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    width: 30em;
+    height: 25em;
+}
+
+.view-card-2:hover {
+    background-image: linear-gradient(rgba(3, 26, 97, 0), rgba(225, 136, 0, 0.8)), url(../style/Img/kids\ sitting\ 2.jpg);
+}
+
+.view-card-3 {
+    background-image: linear-gradient(rgba(3, 26, 97, 0), rgba(3, 26, 97, 0.8)), url(../style/Img/buss.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 40px;
+    width: 30em;
+    height: 25em;
+}
+.view-card-3:hover {
+    background-image: linear-gradient(rgba(3, 26, 97, 0), rgba(225, 136, 0, 0.8)), url(../style/Img/buss.jpg);
+}
+
+.date {
+    font-family: var(--mont);
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: 80px;
+    height:80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    position: relative;
+    top: 300px;
+    left: 30px;
+}
+
+.date h2 {
+    font-size: 0.6em;
+}
+.date p{
+    font-weight: bolder;
+}
+.content {
+    font-family: var(--mont);
+    color: white;
+    font-weight: 500;
+    position: relative;
+    width: 80%;
+    top: 230px;
+    left: 120px;
+}
+

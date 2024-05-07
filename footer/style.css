@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body {
+    
+  font-family: 'Montserrat';
+}
+
+
+* {
+    background-color: #031A62;
+    padding-top: 7px;
+    
+}
+
+
+ 
+
+.header-1{
+    color: white;
+    word-wrap: break-word;
+    width: 500px;
+    margin-top:-45px;
+    margin-left: 65px;
+    line-height: 2;
+}
+.h1-header{
+    font-size: 30px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 70px;
+    
+}
+
+.nav-links-text{
+    font-size: 30px;
+    margin-top: 30px;
+    color: white;
+    font-weight:900;
+    text-transform: uppercase;
+
+}
+
+.links-text-1{
+    list-style: none;
+    margin-left: -40px;
+    line-height: 35px;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-links{
+    margin-left: 20px;
+}
+
+.adress{
+    margin-left: 65px;
+    margin-top: 100px;
+    color: white;
+
+}
+.footer-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.facebook-logo{
+    width: 32px;
+    height: 32px;
+    margin-top: 210px;
+    padding-left: 20px;
+}
+
+
+.logos{
+    margin-left: 110px;
+    margin-top: 25px;
+    
+}
+
+.arrow{
+    margin-left: 110px;
+    margin-top: 25px;
+}
+.arrow-logo{
+    width: 80px;
+    height: 130px;
+    margin-top: 200px;
+    padding-left: 240px;
+}
+
+.copyright {
+    margin-top: 150px;
+    margin-right: 50px;
+    font-size: 13px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    text-align:end;
+   
+}
+
+
+
+
+
+
+
+
